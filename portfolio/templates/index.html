@@ -10,31 +10,16 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="collapse navbar-collapse">
-                        <div class="container ">
-                            <div class="row">
-                                <ul class="navbar-nav mr-auto ">
-                                    <li class="nav-item ">
-                                        <a class="nav-link text-light" href="#home">Home</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <a class="nav-link text-light" href="#sobre">Sobre</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <a class="nav-link text-light" href="#projetos">Projetos</a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
+    <div id="menu-bar">
+        <div id="menu">
+            
+        </div>
+    </div>
     <section id="home">
         <header class="header-container">
             <div class="header">
                 <div class="checkbox-container container">
-                   
+                    
                     </div>
                 </div>
             </div>
@@ -48,17 +33,17 @@
     </section>
     <section id="sobre" class="sobre">
         <div class="container-fluid">
-            <div class="row">
+            <div class="text-center">
                 <h1 style="margin-top: 3%;" class="text-center">Sobre mim</h1>
             </div>
-            <div class="row">
-                <p class="text-center">Estudante de Ciências da Computação, 5° Período - UNIT(Universidade Tiradentes) 
+            <div class="text-center" id="junto">
+                <p class="text-center ">Estudante de Ciências da Computação, 5° Período - UNIT(Universidade Tiradentes) 
                     com facilidade em trabalho em equipe, boa comunicação e focado em desenvolvimento web com Python/Django. Além disso possuou experiência com banco de dados
                     POSTGRES e ORACLE. Gosto sempre de estar antenado nas novas tecnologias e não fico apegado, 
                     e tento me adaptar os mais rápido possível as necessidades daquele projeto a ser desenvolvido.</p>
                 
             </div>
-            <div class="row">
+            <div class="row align-items-start" id="junto">
                 <h1 class="text-center">Tecnologias</h1>
                 <div class="text-center" style="margin-top: 20px;">
                     <img class="col-lg-2" style="height: 200px; width: 200px;" src="../static/img/Python-logo-notext.svg_.png">
@@ -70,6 +55,48 @@
         </div>
 
     </section>
+    <section style="background-color: #60E1E0;" id="projetos" class="projetos">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h1 style="margin-top: 3%; margin-bottom: 3%;" class="text-center ">Projetos Descktop</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="../static/img/ControleValidade.png" style="height: 400px; width: 800px;">
+                    <h4 class="text-center">Controle de validade </h4>
+                    <p class="" style="text-align: justify;">Esse Software foi desenvolvido para atender a necessidade do controle das validades
+                        da loja da Atalaia Rações, que até então era no caderno. Foi desenvolvido em Python/Django e com o framework Materialize.css. Além disso,
+                        ele possui as seguintes funcionalidades: Cadastrar o Lote, Consultar o lotes, Cada cartão representa um período de 30, 60, 90, 120, 180, +180 dias
+                        que o produto está de vencer.
+                         Contudo, esse programa ainda está em fases de testes na empresa.
+
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="../static/img/Romaneio.png" style="height: 400px; width: 800px;">
+                    <h4 class="text-center">Sistema de Romaneio e Entrega</h4>
+                    <p class="" style="text-align: justify;"></p>
+                </div>
+                
+            </div>
+
+            <div class="text-center">
+                <h1 style="margin-top: 3%; margin-bottom: 3%;" class="text-center ">Projetos Mobile</h1>
+            </div>
+
+            <div class="row">
+                <div class="text-center">
+                    <video  style="height: 600px; width: 800; margin-right: 0%;" controls autoplay src="../static/videos/WhatsApp Video 2022-03-01 at 19.21.34 (1).mp4">
+
+                    </video>
+                    <h4 class="text-center">Atualiza Dados dos Clientes </h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
     <main class="container">
     </main>
     <footer class="footer">
