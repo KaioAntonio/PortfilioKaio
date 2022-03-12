@@ -7,7 +7,7 @@
     <title>Portfólio</title>
     <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-
+    <link rel="icon" href="../static/img/brain-5564173_960_720.png">
 </head>
 <body>
     <div id="menu-bar">
@@ -18,11 +18,10 @@
 
         </div>
         <ul class="nav" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            
 
         </ul>
 
@@ -54,31 +53,32 @@
             <div class="text-center" id="junto">
                 <p class="text-center ">Estudante de Ciências da Computação, 5° Período - UNIT(Universidade Tiradentes) 
                     com facilidade em trabalho em equipe, boa comunicação e focado em desenvolvimento web com Python/Django. Além disso possuou experiência com banco de dados
-                    POSTGRES e ORACLE. Gosto sempre de estar antenado nas novas tecnologias e não fico apegado, 
-                    e tento me adaptar os mais rápido possível as necessidades daquele projeto a ser desenvolvido.</p>
+                    POSTGRES e ORACLE. Gosto sempre de estar antenado nas novas tecnologias e não fico apegado a linguagem, 
+                    tento me adaptar os mais rápido possível as necessidades daquele projeto a ser desenvolvido.</p>
                 
             </div>
             <div class="row align-items-start" id="junto">
                 <h1 class="text-center">Tecnologias</h1>
                 <div class="text-center" style="margin-top: 20px;">
-                    <img class="col-lg-2" style="height: 200px; width: 200px;" src="../static/img/Python-logo-notext.svg_.png">
-                    <img class="col-lg-2" style="height: 200px; width: 200px;" src="../static/img/database-png-icon-22.jpg">
-                    <img class="col-lg-4" style="height: 200px; width: 200px;" src="../static/img/800px-HTML5_logo_and_wordmark.svg.png">
-                    <img class="text-center" style="height: 200px; width: 200px;" src="../static/img/1200px-CSS3_logo_and_wordmark.svg.jpg">
+                    <img class="col-lg-2" style="height: 50px; width: 50px;" src="../static/img/Python-logo-notext.svg_.png">
+                    <img class="col-lg-2" style="height: 50px; width: 50px;" src="../static/img/database-png-icon-22.jpg">
+                    <img class="col-lg-4" style="height: 50px; width: 50px;" src="../static/img/800px-HTML5_logo_and_wordmark.svg.png">
+                    <img class="text-center" style="height: 50px; width: 50px;" src="../static/img/1200px-CSS3_logo_and_wordmark.svg.jpg">
                     </div>
             </div>
+            
         </div>
 
     </section>
     <section style="background-color: #60E1E0;" id="projetos" class="projetos">
         <div class="container-fluid">
             <div class="text-center">
-                <h1 style="margin-top: 3%; margin-bottom: 3%;" class="text-center ">Projetos Descktop</h1>
+                <h1 style="margin-top: 3%; margin-bottom: 3%;" class="text-center">Projetos Descktop</h1>
             </div>
 
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../static/img/ControleValidade.png" style="height: 300px; width: 600px;">
+                    <img src="../static/img/ControleValidade.png" style="height: 300px; width: 600px; margin-left: 40px;">
                     <h4 class="text-center">Controle de validade </h4>
                     <p class="" style="text-align: justify;">Esse Software foi desenvolvido para atender a necessidade do controle das validades
                         da loja da Atalaia Rações, que até então era no caderno. Foi desenvolvido em Python/Django e com o framework Materialize.css. Além disso,
@@ -89,11 +89,11 @@
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="../static/img/Romaneio.png" style="height: 300px; width: 600px;">
+                    <img src="../static/img/Romaneio.png" style="height: 300px; width: 600px; margin-left: 30px;">
                     <h4 class="text-center">Sistema de Romaneio e Entrega</h4>
                     <p class="" style="text-align: justify;">Esse software foi desenvolvido para retirar o romaneio da Atalaia Rações 
                     do papel, no qual é feito para contagem de viagens realizadas por motoboys. Hoje, funcionado de forma adequada podendo Cadastrar 
-                o entregador, a entrega, consultar entrega, e gerar relatórios analíticos e síntecos em determinados perídos</p>
+                o entregador, a entrega, consultar entrega, e gerar relatórios analíticos e síntecos em determinados perídos.</p>
                 </div>
                 
             </div>
@@ -104,17 +104,16 @@
 
             <div class="row">
                 <div class="text-center">
-                    <video  style="height: 600px; width: 800; margin-right: 0%;" controls autoplay src="../static/videos/WhatsApp Video 2022-03-01 at 19.21.34 (1).mp4">
+                    <video  style="height: 400px; width: 500; margin-right: 0%; margin-bottom: 1%;" controls autoplay src="../static/videos/WhatsApp Video 2022-03-01 at 19.21.34 (1).mp4">
                     </video>
-                    <h4 class="text-center">Atualiza Dados dos Clientes </h4>
-                    <p style="text-align: justify;"></p>
+                    <h4 class="text-center">Atualiza Dados dos Clientes</h4>
+                    <p class="col-lg-6 offset-md-3 " style="text-align: justify;"> O sistema de Atualizar Cliente foi feito com intuito de como o próprio nome já diz realizar a atualização dos dados dos clientes. O vendedor que possui o acesso pode realizar de forma mensal os dados. Feito em Django e se conectando com o Banco do ERP Winthor (Oracle).</p>
                 </div>
 
             </div>
         </div>
     </section>
-    
-    <main class="container">
+       <main class="container">
     </main>
     <footer class="footer">
         
