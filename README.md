@@ -25,4 +25,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Autor
 ---
 
-Feito com ❤️ por Kaio Antônio 👋🏻 🏽 Entre em contato!
+Feito com ❤️ por Kaio Antônio 👋🏻 Entre em contato!
+
