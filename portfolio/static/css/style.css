@@ -139,7 +139,7 @@ nav {
 	transform: translate(-60%,-30%);
 }
 .change .bar{
-	background-color: white;
+	background-color: black;
 }
 .change #bar1{
 	transform: translateY(4px) rotateZ(-45deg);
