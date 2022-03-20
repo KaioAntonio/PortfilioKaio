@@ -5,7 +5,7 @@
     height: 100vh;
     width: 98.8vw;
     background-color: #60E1E0;
-    background-image: url('../img/background.png');
+    background-image: url('../img/kaio.png');
 	
     background-repeat: no-repeat;
     background-position: right;
@@ -95,7 +95,7 @@ nav {
 }
 .nav li a
 {
-	color: #fff;
+	color: black;
 	text-decoration: none;
 }
 .nav li a:hover
@@ -124,7 +124,7 @@ nav {
 	width: 0;
 	height: 0;
 	margin: 30px 0 20px 20px;
-	background: radial-gradient(circle,#6ff36a,#69E864);
+	background: radial-gradient(circle,white,white);
 	border-radius: 50%;
 	transition: 0.3s ease;
 }
@@ -139,7 +139,7 @@ nav {
 	transform: translate(-60%,-30%);
 }
 .change .bar{
-	background-color: #69E864;
+	background-color: white;
 }
 .change #bar1{
 	transform: translateY(4px) rotateZ(-45deg);
