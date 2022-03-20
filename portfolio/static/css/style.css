@@ -154,3 +154,20 @@ nav {
 	display: block;
 } 
 
+.sobre{
+	height: 100vh;
+    width: 98.8vw;
+    background-color: white;
+    background-image: url('../img/kaio.png');
+	
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
