@@ -17,6 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML]
 - [CSS]
 - [JAVASCRIPT]
+- [BOOTSTRAP]
 
 ### 🌐 Acesse
 
