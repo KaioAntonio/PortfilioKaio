@@ -81,59 +81,18 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     
     'default': {
-<<<<<<< HEAD
-<<<<<<< eee0a6a60a24d692d615c3b12f47eea1ff84ecf2
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-=======
-=======
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-=======
->>>>>>> master
->>>>>>> Stashed changes
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
         'NAME': 'd6jotaiiko1n3m',
 
-<<<<<<< Updated upstream
         'USER': 'jbgvzcbttutdab',
 
         'PASSWORD': '880e85c9b44bad399a017e3d74a89468a8b7ca7074076275354e82cee8e3789a',
-=======
-<<<<<<< Updated upstream
-        'USER': 'jbgvzcbttutdab',
-
-        'PASSWORD': '880e85c9b44bad399a017e3d74a89468a8b7ca7074076275354e82cee8e3789a',
-=======
-        'USER': 'admin',
-
-        'PASSWORD': 'admin',
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 
         'HOST': 'ec2-3-216-113-109.compute-1.amazonaws.com',
 
         'PORT': '5432',
-
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-<<<<<<< HEAD
->>>>>>> Configurando o Banco
-=======
->>>>>>> master
     }
 }
 

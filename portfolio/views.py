@@ -1,5 +1,5 @@
 from django.http import HttpRequest, HttpResponse
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.contrib import messages
 from portfolio.models import Mensagem
 
@@ -13,7 +13,7 @@ def port_page(request):
 
         mensagens_salvas = Mensagem.objects.create(nome=nome,email=email,mensagem=mensagem)
         messages.success(request, "Mensagem enviada com sucesso!")
-        return render(request,"index.html")
+        return redirect('/#contato')
     else:
         return render(request, "index.html")
 
