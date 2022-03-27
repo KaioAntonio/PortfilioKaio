@@ -483,6 +483,7 @@
                         <div class="card p-5 h-100 shadow border-0">
                             <form class="row g-3" method="post">
                                 {%csrf_token%}
+
                                 <div class="col-md-6">
                                   <label for="nome" class="form-label">Nome:</label>
                                   <input type="text" class="form-control" id="nome" name="nome"
@@ -501,6 +502,16 @@
                                 <div class="col-12 d-flex justify-content-center mt-4">
                                   <button type="submit" class="btn btn-primary">Enviar mensagem</button>
                                 </div>
+                                
+                                    {% for message in messages %}
+                                    <div class="col-12 d-flex justify-content-center mt-5">
+                                        <a class="close" href="#" data-dismiss="alert"><i class=" bi bi-send-check-fill"></i></a>
+                                        {{ message }}
+
+                                    {%endfor%}
+                                    
+                                </div>
+                                
                               </form>
 
                         </div>
