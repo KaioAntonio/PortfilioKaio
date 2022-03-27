@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mysite',
     'portfolio',
+    "anymail",
 ]
 
 MIDDLEWARE = [
@@ -128,3 +129,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 django_heroku.settings(locals())
+
+
+EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
+DEFAULT_FROM_EMAIL = "no_reply@meusite.com"
+SERVER_EMAIL = DEFAULT_FROM_EMAIL
+ANYMAIL = {
+    "MAILGUN_API_KEY": "3e76deaecb2c07cb91da53c607ddb1ea-0677517f-a55159b8",
+    "MAILGUN_SENDER_DOMAIN": "",
+}
