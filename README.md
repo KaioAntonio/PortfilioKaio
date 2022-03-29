@@ -6,7 +6,7 @@
 <p align="center">🚀 Projeto do meu portfólio para alavancar meu networking</p>
 
 <h4 align="center"> 
-	🚧  Em construção...  🚧
+	✅ Concluído ✅
 </h4>
 
 ### 🛠 Tecnologias
