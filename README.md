@@ -1,7 +1,7 @@
 <h1 align="center">Meu Portfólio</h1>
 
 <h1 align="center">
-    <a href="https://portifolio-kaio.herokuapp.com/"🌐 Acesse</a>
+    <a href="https://portifolio-kaio.herokuapp.com/">🌐 Acesse</a>
 </h1>
 <p align="center">🚀 Projeto do meu portfólio para alavancar meu networking</p>
 
