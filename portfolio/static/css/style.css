@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-@keyframes changeBackgroundColor {
-    0% {
-      background-color: #3cff00;
-    }
-    35% {
-      background-color: #ff0d00;
-    }
-    75% {
-      background-color: #0004ff;
-    }
-    100% {
-        background-color: #3cff00;
-      }
-  }
 
 html,body{
     font-family: Ubuntu, Arial;
@@ -42,7 +28,7 @@ html,body{
     width: 150px;
     height: 150px;
     border: 5px solid #ffffff;
-    border-radius: 10%;
+    border-radius: 50%;
 
 }
 
@@ -60,7 +46,6 @@ html,body{
     font-size: 1rem;
     background: #212431;
     color: white;
-    animation: changeBackgroundColor 3s infinite;
     padding: 0.7rem;
     margin-right: 1rem;
     border-radius: 50%;
@@ -69,7 +54,7 @@ html,body{
 }
 
 #header .profile .social-links a:hover{
-    background: #d900e0;
+    background: #149ddd;
 }
    
 .nav-menu{
